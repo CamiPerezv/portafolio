@@ -1,0 +1,95 @@
+/*------ Estilos generales de texto -----*/
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+  }
+  h2{
+      color: #DD5A92;
+  }
+  p, span{
+    font-family: 'Montserrat', sans-serif;
+  }
+  ​
+  /*------ Estilos generales de color -----*/
+  .c-background{
+    background-color: salmon;
+  }
+  .c-text{
+    color: #000;
+  }
+  ​
+  /*------ Estilos generales de espaciado -----*/
+  .pad-section{
+    padding: 4% 0!important;
+
+  }
+
+  .pad-section1{
+    padding: 20% 4% 4% 4%!important;
+
+  }
+  .pd-project{
+    padding: 5%;
+  }
+  ​
+  /*------ Otros estilos -----*/
+
+  ​
+  
+  /* header{  esto es para que el encabezado se vea al 100% de altura de la pantalla
+    height: 100vh;
+  }*/
+  ​
+  /* smooth scrolling sirve para que el deslizamiento que se realiza al realizar click
+    en un enlace sea fluido y no brusco */
+    html {
+      scroll-behavior: smooth;
+    }
+
+
+ .bg-light {
+  
+        background-color: #ffffff!important;
+ }
+
+ .container1{
+    padding: 20% 10% 10% 10%!important;
+   
+ }
+
+  header{
+    background-image: url("img/header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+  }
+  .home{
+   
+    height:600px;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer{
+      background-color: rgb(216, 216, 216);
+  }
+
+  .container2{
+      
+    width: 450px;
+    height: 250px;
+    background-image: url(img/svg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 auto;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .back{
+        background-color: #FECACA;
+        padding: 4% 0!important;
+    }
+   
