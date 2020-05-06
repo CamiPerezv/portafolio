@@ -870,6 +870,12 @@ pre code {
   padding-left: 15px;
   padding-right: 15px;
 }
+.container2 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .container:before, .container:after {
   content: " ";
   display: table;
@@ -881,15 +887,25 @@ pre code {
   .container {
     width: 750px;
   }
+  .container2 {
+    width: 620px;
+  }
 }
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
+  .container2 {
+    width: 1170px;
+  }
 }
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+  }
+
+  .container2 {
+    width: 1500px;
   }
 }
 
