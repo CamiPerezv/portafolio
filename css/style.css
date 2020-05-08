@@ -48,13 +48,13 @@ body {
 }
 
 a {
-  color: #cabcab;
+  color:rgb(253, 146, 169);;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #cabcab;
+  color: rgb(253, 146, 169);
   outline: none;
   text-decoration: none;
 }
@@ -63,8 +63,22 @@ p {
   margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+h1, h2, h5, h6, figure {
+  color: rgb(250, 68, 108);
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+ h3 {
+  color: rgb(253, 146, 169);
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+h4  {
+  color: rgb(179, 179, 179);
   font-family: "Montserrat", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -91,7 +105,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::selection {
   color: #fff;
-  background: #cabcab;
+  background: rgb(253, 146, 169);
 }
 
 .fh5co-nav {
@@ -705,7 +719,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-footer {
-  background: #efefef;
+  background: #383838;
 }
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
@@ -1079,16 +1093,16 @@ h1, h2, h3, h4, h5, h6, figure {
   border: 2px solid #cabcab;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #d4c8bb !important;
-  border-color: #d4c8bb !important;
+  background:  rgb(253, 146, 169) !important;
+  border-color: rgb(253, 146, 169) !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #cabcab;
-  border: 2px solid #cabcab;
+  color:  rgb(253, 146, 169);
+  border: 2px  rgb(253, 146, 169);
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #cabcab;
+  background: rgb(253, 146, 169);;
   color: #fff;
 }
 
@@ -1305,3 +1319,8 @@ blockquote .person cite {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.box1 {
+  padding: 6% 6% 6% 6%!important;
+  background-color: #ececec;
+}
